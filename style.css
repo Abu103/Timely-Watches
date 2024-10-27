@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+header h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-style: normal;
+  margin: 11px;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.nav_right {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 3px;
+  font-size: 1.3rem;
+  justify-content: space-around;
+}
+
+.nav_right a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav_right a:hover,
+.nav_right a:active {
+  text-decoration: underline;
+}
+
+section h2 {
+  justify-content: center;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  cursor: default;
+  display: block;
+  margin: 25px;
+}
+
+.new_arrivals_product {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: default;
+  text-align-last: center;
+  justify-content: space-around;
+}
+.new_arrivals_product button {
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border: 0px solid black;
+  background-color: black;
+}
+
+.new_arrivals_product button:hover {
+  transform: scale(1.03);
+  transition: all 0.1s ease;
+  box-shadow: 1px 2px 3px #5e5c5c;
+}
+
+.new_arrivals_product p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+.new_arrivals_product img {
+  margin: 5px 0px 20px 0px;
+  overflow: hidden;
+}
+
+.new_arrivals_product img:hover {
+  transform: scale(1.07);
+  transition: all 0.2s ease-in-out;
+}
+
+.best_selling {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  cursor: default;
+  text-align-last: center;
+}
+.best_selling p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-wrap: normal;
+  font-size: 0.95rem;
+}
+.best_selling img {
+  margin: 5px 0px 20px 0px;
+  overflow: hidden;
+}
+
+.best_selling img:hover {
+  transform: scale(1.07);
+  transition: all 0.2s ease-in-out;
+}
+
+.best_selling button {
+  color: white;
+  background-color: black;
+  border: 0px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+.best_selling button:hover {
+  transform: scale(1.03);
+  transition: all 0.1s ease;
+  box-shadow: 1px 2px 3px #5e5c5c;
+}
+
+footer {
+  margin: 20px 0 0 5px;
+  text-align: center;
+  text-decoration: solid;
+  font-weight: 700;
+  cursor: default;
+}
+footer hr {
+  border: 0.5px solid black;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover,
+footer a:active {
+  text-decoration: underline;
+  cursor: grab;
+}
